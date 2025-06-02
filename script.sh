@@ -1,9 +1,9 @@
 #!/bin/bash
-
 git --version
-
-if [ $? -eq 0 ] then
-    echo "git is installed"
+if [ $? -eq 0 ]
+        then
+        echo " Git is installed "
 else
-    echo "git is not installed"
+        echo " Git is not installed "
 fi
+#end
